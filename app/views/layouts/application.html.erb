@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Women Who Code - Ruby HTTP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= stylesheet_link_tag    'main', media: 'all' %>
+  <%= javascript_include_tag 'main' %>
+</head>
+<body>
+  <form name="form">
+    <ul>
+      <li>
+        <img src="<%= asset_url('logo-1024px.png') %>"/>
+      </li>
+      <li>
+        <h1>Submit DevTools Ideas</h1>
+      </li>
+      <li>
+        <label for="name">Name</label>
+        <input type="text" id="name"/>
+      </li>
+      <li>
+        <label for="email">Email</label>
+        <input type="email" id="email"/>
+      </li>
+      <li>
+        <label for="idea">Idea</label>
+        <textarea rows=5 id="idea"></textarea>
+      </li>
+      <li>
+        <button type="button" id="submit">Submit</button>
+      </li>
+    </ul>
+  </form>
+</body>
+</html>
